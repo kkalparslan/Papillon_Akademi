@@ -1,0 +1,37 @@
+
+public class LoginTest {
+  private WebDriver driver;
+
+  @Given("I am on the login page of the website")
+  public void i_am_on_the_login_page_of_the_website() {
+    System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+    driver = new ChromeDriver();
+    driver.get("https://papillonakademi.com/");
+  }
+
+  @When("I enter incorrect email and password")
+  public void i_enter_incorrect_email_and_password() {
+    WebElement emailField = driver.findElement(By.id("email"));
+    emailField.sendKeys("incorrect@email.com");
+    WebElement passwordField = driver.findElement(By.id("password"));
+    passwordField.sendKeys("incorrect");
+    passwordField.submit();
+  }
+
+  @Then("I should see an error message")
+  public void i_should_see_an_error_message() {
+    WebElement errorMessage = driver.findElement(By.id("error-message"));
+    Assert.assertEquals("Incorrect email or password.", errorMessage.getText());
+    driver.quit();
+  }
+}
+
+Feature: Login
+  As a user,
+  I want to be able to log in to the website,
+  So that I can access my account.
+
+Scenario: Unsuccessful Login
+  Given I am on the login page of the website
+  When I enter incorrect email and password
+  Then I should see an error message

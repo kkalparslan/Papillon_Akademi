@@ -1,0 +1,38 @@
+
+positive login test
+public class LoginTest {
+  private WebDriver driver;
+
+  @Given("I am on the login page of the website")
+  public void i_am_on_the_login_page_of_the_website() {
+    System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+    driver = new ChromeDriver();
+    driver.get("https://papillonakademi.com/");
+  }
+
+  @When("I enter my email and password")
+  public void i_enter_my_email_and_password() {
+    WebElement emailField = driver.findElement(By.id("email"));
+    emailField.sendKeys("test@email.com");
+    WebElement passwordField = driver.findElement(By.id("password"));
+    passwordField.sendKeys("password");
+    passwordField.submit();
+  }
+
+  @Then("I should be logged in to the website")
+  public void i_should_be_logged_in_to_the_website() {
+    WebElement welcomeMessage = driver.findElement(By.id("welcome-message"));
+    Assert.assertEquals("Welcome, test@email.com!", welcomeMessage.getText());
+    driver.quit();
+  }
+}
+
+Feature: Login
+  As a user,
+  I want to be able to log in to the website,
+  So that I can access my account.
+
+Scenario: Successful Login
+  Given I am on the login page of the website
+  When I enter my email and password
+  Then I should be logged in to the website
