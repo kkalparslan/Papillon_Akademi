@@ -1,0 +1,70 @@
+Prepare Test Cases: Identify the important functionalities and features of the website and
+create test cases to verify them.
+
+Test Environment Setup: Set up the testing environment by installing the required software and tools.
+
+Test Data Preparation: Prepare the data that will be used for testing. This may include creating test
+accounts, populating test databases, etc.
+
+Test Execution: Run the test cases and verify that the website behaves as expected. Make sure to keep
+track of any failures or errors that occur.
+
+Test Result Analysis: Analyze the results of the tests and identify any failures or errors that need to be fixed.
+
+Defect Tracking and Management: Report any defects found during testing and track their status to ensure
+they are fixed.
+
+Regression Testing: After fixing defects, run the test cases again to verify that the changes did not
+break any other parts of the website.
+
+Final Testing and Verification: Once all defects are fixed, perform final testing and verification to
+ensure that the website is functioning as expected.
+
+Release: Once the testing is completed and the website is deemed ready, release it for public use.
+
+Note that these steps may vary slightly depending on the specific testing methodologies and processes
+being used, but these general steps can serve as a starting point for testing a website
+like "https://papillonakademi.com/".
+
+Test Durumlarını Hazırla: Web sitesinin önemli işlevselliklerini ve özelliklerini belirleyin ve bunları
+doğrulamak için test durumları oluşturun.
+
+Test Ortamını Kur: Gerekli yazılım ve araçları yükleyerek test ortamını kurun.
+
+Test Verisi Hazırla: Test için kullanılacak veriyi hazırlayın. Bu, test hesaplarının oluşturulması,
+test veritabanlarının doldurulması vb. içerebilir.
+
+Test Çalıştır: Test durumlarını çalıştırın ve web sitesinin beklenen şekilde davranıp davranmadığını doğrulayın.
+ Herhangi bir hata veya başarısızlığı izlemek için dikkatli olun.
+
+Test Sonuçlarını Analiz Et: Test sonuçlarını analiz edin ve düzeltilmesi gereken hata veya başarısızlıkları belirleyin.
+
+Hata Takip ve Yönetimi: Test sırasında bulunan hataları rapor edin ve durumlarını izleyin ve düzeltilmelerini sağlayın.
+
+Regresyon Testi: Hataları düzeltildikten sonra, test durumlarını tekrar çalıştırarak, değişikliklerin diğer web
+sitesi bölümlerini bozup bozmadığını doğrulayın.
+
+Son Test ve Doğrulama: Tüm hatalar düzeltildikten sonra, web sitesinin beklenen şekilde çalışıp çalışmadığını
+doğrulamak için son test ve doğrulama gerçekleştirin.
+
+Yayınla: Test tamamlandıktan ve web sitesinin kullanıma hazır olduğuna karar verildikten sonra, halka açık
+kullanım için yayınlayın.
+
+***************************************************************************************************************
+Anasayfa Kontrolü: Web sitesinin anasayfasının doğru bir şekilde yüklendiğini ve tüm içeriğin doğru bir şekilde
+görüntülendiğini doğrulayın.
+
+Kurslar Sayfası Kontrolü: Kurslar sayfasının doğru bir şekilde yüklendiğini ve tüm kursların doğru bir şekilde
+listelendiğini doğrulayın.
+
+İletişim Sayfası Kontrolü: İletişim sayfasının doğru bir şekilde yüklendiğini ve tüm iletişim bilgilerinin doğru
+bir şekilde görüntülendiğini doğrulayın.
+
+Kayıt İşlemi Kontrolü: Kullanıcı kayıt işlemini doğru bir şekilde yapabildiğini ve kayıt sonrası kullanıcıya uygun
+bir şekilde yanıt verildiğini doğrulayın.
+
+Giriş İşlemi Kontrolü: Kullanıcı giriş işlemini doğru bir şekilde yapabildiğini ve giriş sonrası kullanıcıya uygun
+ bir şekilde yanıt verildiğini doğrulayın.
+
+Bu test adımları, web sitesinin temel fonksiyonalitelerinin doğru bir şekilde çalıştığını ve kullanıcıların
+beklentilerine uygun bir şekilde yanıt verdiğini doğrulamak için yeterli olacaktır.

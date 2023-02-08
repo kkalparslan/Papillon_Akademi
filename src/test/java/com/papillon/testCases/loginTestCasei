@@ -1,0 +1,26 @@
+Test Durumlarını Hazırla: Web sitesindeki giriş işlevselliğini belirleyin ve doğrulamak için test
+durumları oluşturun. Örneğin, doğru kullanıcı adı ve şifre girdiğinde giriş başarılı olmalı, yanlış
+kullanıcı adı veya şifre girdiğinde hata mesajı görüntülenmelidir.
+
+Test Verisi Hazırla: Test için giriş yapmak için kullanıcı adı ve şifre verilerini hazırlayın. Bu,
+doğru ve yanlış giriş verilerini içerebilir.
+
+Test Çalıştır: Giriş sayfasına gidin ve test verilerini girdiğinizde giriş işlevselliğinin beklenen
+şekilde davrandığını doğrulayın.
+
+Test Sonuçlarını Analiz Et: Test sonuçlarını analiz edin ve hata veya başarısızlıkları belirleyin.
+
+Hata Takip ve Yönetimi: Bulunan hataları rapor edin ve durumlarını izleyin ve düzeltilmelerini sağlayın.
+
+Regresyon Testi: Düzeltilen hataları tekrar test edin ve değişikliklerin diğer giriş işlevselliğini bozup
+bozmadığını doğrulayın.
+
+Son Test ve Doğrulama: Düzeltilen hataların tekrar bulunmamış olduğunu doğrulamak için son test ve doğrulama
+gerçekleştirin.
+
+Not: Bu adımlar, kullanılan spesifik test metodolojileri ve süreçlerine göre biraz değişebilir, ancak bu genel
+adımlar giriş (login) işlevselliği için başlangıç noktası olarak düşünülebilir.
+
+
+
+

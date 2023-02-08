@@ -1,0 +1,26 @@
+Test Durumlarını Hazırla: Web sitesindeki eğitim başvuru işlevselliğini belirleyin ve doğrulamak
+için test durumları oluşturun. Örneğin, doğru verileri girdiğinde başvuru başarılı olmalı, zorunlu
+alanları doldurmadığında hata mesajı görüntülenmelidir.
+
+Test Verisi Hazırla: Test için başvuru yapmak için gerekli tüm verileri hazırlayın. Bu, doğru ve yanlış
+verileri içerebilir.
+
+Test Çalıştır: Eğitim başvuru sayfasına gidin ve test verilerini girdiğinizde başvuru işlevselliğinin
+beklenen şekilde davrandığını doğrulayın.
+
+Test Sonuçlarını Analiz Et: Test sonuçlarını analiz edin ve hata veya başarısızlıkları belirleyin.
+
+Hata Takip ve Yönetimi: Bulunan hataları rapor edin ve durumlarını izleyin ve düzeltilmelerini sağlayın.
+
+Regresyon Testi: Düzeltilen hataları tekrar test edin ve değişikliklerin diğer başvuru işlevselliğini bozup
+ bozmadığını doğrulayın.
+
+Son Test ve Doğrulama: Düzeltilen hataların tekrar bulunmamış olduğunu doğrulamak için son test ve doğrulama
+gerçekleştirin.
+
+Not: Bu adımlar, kullanılan spesifik test metodolojileri ve süreçlerine göre biraz değişebilir, ancak bu
+genel adımlar eğitim başvuru işlevselliği için başlangıç noktası olarak düşünülebilir.
+
+
+
+
