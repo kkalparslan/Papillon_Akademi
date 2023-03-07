@@ -11,9 +11,9 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "com/papillon/step_definitions",
-        dryRun = true,
+        dryRun = false,
 
-        tags = "@register"
+        tags = "@wip"
 
 )
 

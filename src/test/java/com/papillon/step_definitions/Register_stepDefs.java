@@ -3,7 +3,7 @@ package com.papillon.step_definitions;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class Register_Step_Defs {
+public class Register_stepDefs {
 
     @When("The user should be open the account bar")
     public void the_user_should_be_open_the_account_bar() {

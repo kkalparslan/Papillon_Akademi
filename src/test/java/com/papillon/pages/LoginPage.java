@@ -1,5 +1,6 @@
 package com.papillon.pages;
 
+import com.papillon.utilities.BrowserUtils;
 import com.papillon.utilities.ConfigurationReader;
 import com.papillon.utilities.Driver;
 import org.openqa.selenium.WebElement;
@@ -31,15 +32,20 @@ public class LoginPage extends BasePage{
 
     public void openAccountMethod(){
         oturumAc_loc.click();
+        BrowserUtils.waitFor(1);
         girisYap_loc.click();
+        BrowserUtils.waitFor(1);
     }
 
     public void loginMethod(){
         emailBox_loc.click();
         emailBox_loc.sendKeys(ConfigurationReader.get("userEmail"));
+        BrowserUtils.waitFor(1);
         passwordBox_loc.click();
         passwordBox_loc.sendKeys(ConfigurationReader.get("userPassword"));
+        BrowserUtils.waitFor(1);
         girisYapButton_loc.click();
+        BrowserUtils.waitFor(1);
     }
 
     public String getTextMtd(){
